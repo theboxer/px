@@ -4,6 +4,15 @@ A unified way of running user defined scripts for any language.
 
 Run scripts with `px SCRIPT_NAME`.
 
+## Installation
+
+- Download archive for your platform from the [latest release](https://github.com/theboxer/px/releases/latest)
+- Symlink it to `/usr/local/bin` or your favourite alternative
+
+### Mac OS
+
+When running it for the first time, it'll show an error message. You'll have to enable the `px` from `System Settings` -> `Privacy & Security` -> Near bottom, you'll see `Allow px`.
+
 ## Defining user scripts
 
 - In a project's root create a config file `px.json` or `px.toml`
